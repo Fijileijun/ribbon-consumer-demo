@@ -7,3 +7,16 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds : 100  #隔离超时时间设置
+      circuitBreaker:
+        sleepWindowInMilliseconds: 8000 #熔断器打开后的休眠时间窗口，到达该时间后，熔断器半开
+      metrics:
+        rollingStats:
+          timeInMilliseconds : 16000 #熔断器计数滚动时间窗口值

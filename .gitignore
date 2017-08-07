@@ -26,3 +26,5 @@ nbdist/
 mvnw
 mvnw.cmd
 .mvn
+src/main/resources/static/
+src/main/resources/templates/
