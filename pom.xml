@@ -9,9 +9,9 @@
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>ribbon-consumer-demo</artifactId>
+	<artifactId>ribbon_consumer_demo</artifactId>
 	<packaging>jar</packaging>
-	<name>ribbon-consumer-demo</name>
+	<name>ribbon_consumer_demo</name>
 
 	<dependencies>
 		<dependency>
