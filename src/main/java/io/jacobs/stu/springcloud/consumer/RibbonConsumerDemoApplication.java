@@ -1,4 +1,4 @@
-package io.jacobs.stu.springcloud.base;
+package io.jacobs.stu.springcloud.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

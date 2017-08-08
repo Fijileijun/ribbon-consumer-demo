@@ -1,4 +1,4 @@
-package io.jacobs.stu.springcloud.base.service;
+package io.jacobs.stu.springcloud.consumer.service;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
