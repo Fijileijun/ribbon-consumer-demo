@@ -1,7 +1,3 @@
-/*
- * Copyright 2013-2017 www.mwee.cn.
- */
-
 package io.jacobs.stu.springcloud.consumer.model;
 
 
